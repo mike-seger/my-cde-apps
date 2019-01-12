@@ -4,7 +4,8 @@ A quick portable linux app generator.
 It is based on: http://www.pgbovine.net/cde.html  
 and requires very little effort. The downside vs statically linked binaries,
 is that the portable application is not just a single file.  
-
+The main benefit is that it is very easy to get a portable version of any
+application, available in ubuntu:latest.  
 
 Intructions
 ```
