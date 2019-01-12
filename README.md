@@ -14,12 +14,12 @@ Intructions
 # Example running a cde portable application (here ping.cde vs ping)
 cde/cde-package/ping.cde www.google.com
 ```
-## Modify the generated applications
+## Modifying the list of generated applications
 Dockerfile: Add your application to the list of applications in apt-get install  
 cde/creat.sh: Add your application call prefixed with "cde "  
 
 The generated cde.tgz can be unpacked to any linux.  
-The applications will run without any dependency issues.  
+The applications will run without any additional dependency requrements.  
 
 ## Links
 Other people have provided sets of tools for various platforms,
