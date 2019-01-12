@@ -1,23 +1,28 @@
 # my-cde-apps
 
-My quick portable linux app generator.
-It is based on: http://www.pgbovine.net/cde.html
+A quick portable linux app generator.
+It is based on: http://www.pgbovine.net/cde.html  
+and requires very little effort. The downside vs statically linked binaries,
+is that the application is not just a single file.
 
 Intructions
 ```
-# Run
+# Create
 ./create-cde.sh
+
+# Example running an cde portable application
+cde/cde-package/ping.cde www.google.com
 ```
-
 ## Modify the generated applications
-Dockerfile: Install your application adding it to the list of applications
-in apt-get install  
-cde/creat.sh: Call you application prefixed with "cde "  
+Dockerfile: Add your application to the list of applications in apt-get install  
+cde/creat.sh: Add your application call prefixed with "cde "  
 
-Other people have provided sets of tools for various platforms here,
+The generated cde.tgz can be unpacked to any linux.  
+The applications will run without any dependency issues.  
+
+Other people have provided sets of tools for various platforms,
 prebuilt as statically linked binaries including the build scripts:  
 https://github.com/andrew-d/static-binaries  
 https://github.com/ernw/static-toolbox  
-
 
  
