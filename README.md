@@ -1,6 +1,6 @@
 # my-cde-apps
 
-A quick portable linux app generator.
+A generator for a few portable linux applications.
 It is based on: http://www.pgbovine.net/cde.html  
 and requires very little effort. The downside vs statically linked binaries,
 is that the portable application is not just a single file.  
