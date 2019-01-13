@@ -20,7 +20,7 @@ cde/cde-package/ping.cde www.google.com
 **cde/creat.sh**: Add your application call prefixed with "cde "  
 
 The generated cde.tgz can be unpacked to any linux.  
-The applications will run without any additional dependency requrements.  
+The applications will run without any additional dependency requirements.  
 
 ## Links
 Other people have provided sets of tools for various platforms,
